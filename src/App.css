@@ -1,0 +1,98 @@
+.logo {
+  height: 4.6rem;
+  display: block;
+  margin: 30px auto;
+}
+
+.card-grid{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 10px;
+  margin: 40px auto 0 auto;
+  color: white; 
+}
+
+.film-card{    
+   background: rgb(35, 35, 35);
+  width: 100%;
+  max-width: 450px;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.film-card:hover {
+  transform: perspective(1px) translateZ(0px);
+    transition: all 0.3s ease 0s;
+    overflow: hidden;
+  box-shadow: 0px 0px 10px 2px rgb(74, 178, 248);
+}
+
+li{
+  list-style: none;
+}
+
+.message{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3rem;
+  font-size: 600;
+  color: white;
+}
+
+.title{
+  font-size: 1.3rem;
+}
+
+.dates{
+  color: rgb(151, 149, 149);
+  margin-top: 5px;
+  font-size: 0.75rem;
+}
+
+.text{
+  font-size: 13px;
+   margin: 20px 0;
+  line-height: 1.3rem;
+  overflow-wrap: break-word;
+}
+
+.divider{
+  height: 2px;
+  background-color: rgb(247, 81, 81);
+  margin-top: 22px;
+}
+
+.butn{
+  color: rgb(223, 223, 49);
+  background-color: transparent;
+  border: none;
+  font-size: 0.78rem;
+}
+
+
+@media screen and (min-width: 750px){
+  
+  .film-card{
+   max-width: 290px;
+   min-width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  
+  .film-card{
+       max-width: 310px;
+       min-width: 300px;
+     }
+}
+
+
+
+
